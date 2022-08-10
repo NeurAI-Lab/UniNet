@@ -1,0 +1,37 @@
+DATALOADER:
+  MEAN: [0.28689554, 0.32513303, 0.28389177]
+  STD: [0.18696375, 0.19017339, 0.18720214]
+
+TASKS:
+  BALANCING_METHOD: 'geometric'
+
+MODEL:
+  BACKBONE_NAME: 'dla34'
+  PRETRAINED_PATH: <PRETRAINED PATH>
+  LOAD_BACKBONE: True
+
+  ENCODER:
+    OUT_CHANNELS_BEFORE_EXPANSION: 128
+    FEAT_CHANNELS: [512, 512, 512, 512]
+    ENCODER_TYPE: 'vovnet'
+  
+  NECK:
+    NECK_TYPE: 'fpn'
+
+  DET:
+    CLS_LOSS_TYPE: 'vari_focal_loss'
+    
+  MEINST:
+    PCA_PATH: './resources/pca_meinst.npz'
+
+
+DICT_CONFIG:
+  OPTIMIZER_WRAP_ARGS: {}
+  TASKS_DICT:
+    detect: True
+    segment: True
+    depth: True
+    inst_depth: True
+    inst_seg: False
+  ATTACK_ARGS:
+    hide_class: 13
