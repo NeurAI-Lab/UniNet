@@ -57,13 +57,13 @@ Models can be evaluated using --eval-only arg along with train script.
 If you find the code useful in your research, please consider citing our paper:
 
 <pre>
-@InProceedings{Gurulingan_2021_ICCV, <br />
-    author    = {Gurulingan, Naresh Kumar and Arani, Elahe and Zonooz, Bahram}, <br />
-    title     = {UniNet: A Unified Scene Understanding Network and Exploring Multi-Task Relationships Through the Lens of Adversarial Attacks}, <br />
-    booktitle = {Proceedings of the IEEE/CVF International Conference on Computer Vision (ICCV) Workshops}, <br />
-    month     = {October}, <br />
-    year      = {2021}, <br />
-    pages     = {2239-2248} <br />
+@InProceedings{Gurulingan_2021_ICCV, 
+    author    = {Gurulingan, Naresh Kumar and Arani, Elahe and Zonooz, Bahram}, 
+    title     = {UniNet: A Unified Scene Understanding Network and Exploring Multi-Task Relationships Through the Lens of Adversarial Attacks}, 
+    booktitle = {Proceedings of the IEEE/CVF International Conference on Computer Vision (ICCV) Workshops}, 
+    month     = {October},
+    year      = {2021},
+    pages     = {2239-2248}
 }
 </pre>
 
