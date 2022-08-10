@@ -26,9 +26,6 @@ same holds for geometric tasks. Additionally, we show that the relationship
 between semantic and geometric tasks is asymmetric and their interaction becomes
 weaker as we move towards higher-level representations.
 
-
-![alt text](images/Encoder_Decoder.pdf "UniNet Encoder-Decoder")
-
 For details, please see the
 [Paper](https://arxiv.org/abs/2108.04584) 
 
