@@ -44,7 +44,7 @@ To train the UniNet model on the Cityscapes dataset: <br />
 
 python train.py --batch-size 8 --workers 8 --data-folder /data/input/datasets/Cityscapes --crop-size 512 1024 --checkname test_cs --output-dir /volumes2/naresh.gurulingan/uninet/ --dataset uninet_cs --pretrained --config-file ./resources/uninet_5tasks.yaml <br />
 
-Pretrained checkpoints for DLA34 can be found at: https://github.com/aim-uofa/AdelaiDet/blob/master/configs/FCOS-Detection/README.md#fcos-real-time-models 
+Pretrained checkpoints for DLA34 can be found at: https://github.com/aim-uofa/AdelaiDet/blob/master/configs/FCOS-Detection/README.md#fcos-real-time-models <br />
 The path to the model can be added in ./resources/uninet_5tasks.yaml in the "PRETRAINED_PATH" field.
 
 Evaluate models:
